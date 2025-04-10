@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .logo img {
+
+    max-width: 10vw;
+  }
+
+  .lang-selector span {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 990px) {
+    .header {
+      display: none;
+    }
+  }
