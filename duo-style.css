@@ -8,8 +8,8 @@
   }
   
   .logo img {
+    display: flex;
 
-    max-width: 10vw;
   }
 
   .lang-selector span {
@@ -21,3 +21,64 @@
       display: none;
     }
   }
+
+  .intro {
+    display: flex;
+    max-width: 90vw;
+    max-height:70vw;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    max-width: 40%;
+
+}
+
+.image-container img {
+    display:flex;
+    width: auto;
+    height: 50%;
+    max-width: 70%;
+  
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.text-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.text-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    margin-top: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.text-container button.get-started {
+    background-color: #07ac2d;
+    color: white;
+}
+
+.text-container button.already-account {
+    background-color: rgb(234, 218, 218);
+    color: #3390e1;
+}
